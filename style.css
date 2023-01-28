@@ -1,0 +1,25 @@
+body{
+    font-size: x-large;
+}
+
+section{
+    margin: 10%;
+}
+
+#top-info{
+    justify-content: center;
+    text-align: center;
+    margin: 5%;
+}
+
+#links-to-follow{
+    font-style: italic;
+}
+table{
+    border-collapse: collapse;
+}
+td, th{
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
