@@ -23,3 +23,12 @@ td, th{
     text-align: left;
     padding: 8px;
 }
+
+span{
+    margin: 3%;
+}
+
+span a{
+    text-decoration: none;
+    color: black;
+}
