@@ -15,9 +15,9 @@
         <p>Hello this is Tajwar. Welcome to my very own website
         </p>
     </section>
-    <section id="links-to-follow"><b>Links to follow:</b><span><a href="">Personal
-                Info</a></span><span><a href="">Hobbies</a></span><span><a href="">FavLinks</a></span><span><a
-                href="">FavQuote</a></span></section>
+    <section id="links-to-follow"><b>Links to follow:</b><span><a href="#pr-info">Personal
+                Info</a></span><span><a href="#hobbies">Hobbies</a></span><span><a
+                href="#fav-quote">FavQuote</a></span></section>
     <section id="pr-info">
         <h1>Personal Info</h1>
         <p>My name is Mohammad Tajwar Chowdhury. I'm currently studying Computer Science and Engineering in <a href="https://www.bracu.ac.bd/">Brac
@@ -95,6 +95,12 @@
         <p><img src="https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/blte7f14e6a2c43be10/633c65ca762be510f72ffa0e/GettyImages-1429075102.jpg?quality=80&format=pjpg&auto=webp&width=620"
                 alt="leo messi"></p>
     </section>
+    <section id="location" style="margin: 5px;"></section>
+    <section id="last-mod" style="margin: 5px;"></section>
+    <script>
+        document.getElementById('location').innerHTML = 'Page location is: ' + window.location
+        document.getElementById('last-mod').innerHTML = 'The document was last modified on: ' + document.lastModified
+    </script>
 </body>
 
 </html>
